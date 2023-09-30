@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 {
+    width: 300px;
+    /*Nao é comun na web manipular a altura dos elementos somente em casos especificos pois os mesmo
+    crecem de acordo om o tamnaho do conteudo */
+    display: inline-block;
+    background-color: red;
+}
+
+.d2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.d3 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: green;
+}

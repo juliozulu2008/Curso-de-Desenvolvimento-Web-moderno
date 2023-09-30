@@ -1,0 +1,55 @@
+*{ /*Reset de CSS margem 0 preenchimento 0 dimencionamento da caixa border box  */
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Importar e estilizar fontes */
+h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+/* Ids e Classes */
+.red{
+    background-color: red; /*Cor de fundo vermelha */
+    color: black; /*Cor do texto preta */
+}
+.blue{
+    background-color: blue; /*Cor de fundo azul */
+    color: black; /*Cor do texto preta */
+}
+.green{
+    background-color: green; /*Cor de fundo verde */
+    color: black; /*Cor do texto preta */
+}
+/* os ids sao mais utilizados com o javascript mas tambem sao usados no csss*/
+#txt{
+    background-color: cyan;
+    font-size: 30px;
+    color: black;
+}
+
+/* atributos */
+[name=teste]{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* Cores e backgrouds */
+div{
+    background-color: #32f;
+}
+h2{
+    color: chartreuse;
+}
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url('../assets/landscape.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
