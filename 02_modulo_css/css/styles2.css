@@ -4,24 +4,31 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
 .d1 {
-    width: 300px;
+    width: 100%;
+    /*Margin  espacamento esterno */
+    padding: 20px; /* Padding espaçamento interno */
     /*Nao é comun na web manipular a altura dos elementos somente em casos especificos pois os mesmo
     crecem de acordo om o tamnaho do conteudo */
-    display: inline-block;
     background-color: red;
 }
 
 .d2 {
-    width: 300px;
+    width: 50%;
     height: 300px;
-    display: inline-block;
     background-color: blue;
 }
 
 .d3 {
-    width: 300px;
+    width: 50%;
     height: 300px;
-    display: inline-block;
     background-color: green;
 }

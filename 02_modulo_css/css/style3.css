@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* Animaçoes */
+@keyframes anim1 {
+    from { background-color: black; }
+    to { background-color: red; }
+}
+
+.teste {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    animation: anim1 3s 3s alternate; /* Agrupando as propriedades da animação */
+}
