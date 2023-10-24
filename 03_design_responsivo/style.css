@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*zerar CSS*/
+}
+
+.box {
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: cyan;
+}
+
+.box2 {
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: red;
+}
+
+.box3 {
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: purple;
+}
+
+/*design responsivo*/
+@media screen and (max-width: 600px) {
+
+    /*quando a tela for menor que 600px*/
+    .box {
+        width: 100%;
+        background-color: cyan;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .box {
+        background-color: purple;
+    }
+}

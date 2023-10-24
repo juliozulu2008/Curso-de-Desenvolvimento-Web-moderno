@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    /* se quiser utilizra colunas no rsponsivel tem que informar o wrap */
+    background-color: aquamarine;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.menu {
+    text-align: right;
+    padding: 0 10px;
+
+}
+
+section.banner {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+section.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    /* se quiser utilizra colunas no rsponsivel tem que informar o wrap */
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.w33 {
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu,
+    header {
+        text-align: center;
+    }
+
+    .w50,
+    .w33 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
